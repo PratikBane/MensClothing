@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+   <link rel="stylesheet" href="https://"
+     
+
+    <title>My Website | Official</title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="container">
+            <nav class="navbar navbar-expa">
+                <div class="navbar-header">
+                    <div class="row">
+                    <div class="col-md-3 col-xs-3">
+                        <p>I am Logo</p>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <button type="button"
+                    </div>
+                    </div>
+                  </div>
+            </nav>
+        </div>
+
+<%--Content--%>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+<%--Footer--%>
+
+    <div>
+
+    </div>
+
+    </form>
+</body>
+</html>
